@@ -1,0 +1,13 @@
+/*
+Theme Name: wordyword
+Description: Child theme based on Twenty Nineteen Theme
+Author: Carl Chiang
+Version: 1.0
+Template: twentynineteen
+*/
+
+@import url('../twentynineteen/style.css');
+
+body {
+    background-color: #FFEB3B;
+}
