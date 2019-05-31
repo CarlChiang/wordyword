@@ -8,6 +8,20 @@ Template: twentynineteen
 
 @import url('../twentynineteen/style.css');
 
+h1	{ 
+	font-family:'Nothing You Could Do', cursive;
+	color: white;
+
+ }
+
 body {
     background-color: #FFEB3B;
+    font-family: 'Didact Gothic', sans-serif;
 }
+
+
+function wpb_add_google_fonts() {
+	wp_enqueue_style( 'wpb-google-fonts','https://fonts.google.com/?query=Goth&selection.family=Didact+Gothic|Nothing+You+Could+Do', false ); 
+}
+
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
