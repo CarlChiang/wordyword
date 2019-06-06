@@ -6,22 +6,35 @@ Version: 1.0
 Template: twentynineteen
 */
 
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Open+Sans+Condensed:300&display=swap');
+
 @import url('../twentynineteen/style.css');
 
 h1	{ 
-	font-family:'Nothing You Could Do', cursive;
-	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #FFE8E8;
 
  }
 
 body {
-    background-color: #FFEB3B;
+    background-color: #F23040;
     font-family: 'Didact Gothic', sans-serif;
+    color: #FFCCD0;
+}
+
+a {
+	color: #DCC0E2;
+}
+
+button {
+	color: #FFEC3D;
+}
+
+.site-description {
+	color: #FF961C;
+	font-family: avenir;
+	font-weight: bold;
 }
 
 
-function wpb_add_google_fonts() {
-	wp_enqueue_style( 'wpb-google-fonts','https://fonts.google.com/?query=Goth&selection.family=Didact+Gothic|Nothing+You+Could+Do', false ); 
-}
 
-add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
