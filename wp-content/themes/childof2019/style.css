@@ -6,18 +6,34 @@ Version: 1.0
 Template: twentynineteen
 */
 
-@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Open+Sans+Condensed:300&display=swap');
-
-@import url('../twentynineteen/style.css');
+@import url('https://fonts.googleapis.com/css?family=Anton|Didact+Gothic|Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i|Open+Sans+Condensed:300,300i,700|Teko&display=swap');
 
 h1	{ 
-	font-family: 'Open Sans Condensed', sans-serif;
+	
+
+ }
+
+ .entry-title {
+ 	font-family: 'Teko', sans-serif;
+	color: #FFE8E8;
+	align-items: center;
+	font-size: 50px;
+}
+
+ h2{
+ 	font-family: 'Josefin Sans', sans-serif;
 	color: #FFE8E8;
 
  }
 
+ @media {
+ }
+
+ /*Open Sans Condensed*/
+
 body {
-    background-color: #F23040;
+    background-color: #673ab7;
+    /*background-color: #F23040;*/
     font-family: 'Didact Gothic', sans-serif;
     color: #FFCCD0;
 }
@@ -30,11 +46,48 @@ button {
 	color: #FFEC3D;
 }
 
+.site-title{
+	color:white;
+	font-family: avenir;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+.site-title a:link, .site-title a:visited {
+  color: #e91e63;
+  font-size: 50px; 
+}
+
 .site-description {
-	color: #FF961C;
+	color: #e689a9;
 	font-family: avenir;
 	font-weight: bold;
 }
 
+.button, button, input[type="button"], input[type="reset"], input[type="submit"] {
+    transition: background 150ms ease-in-out;
+    background: #E91E63;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #eaf8ff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    /* font-size: 0.88889em; */
+    font-weight: 700;
+    line-height: 1.2;
+    outline: none;
+    padding: 0.76rem 1rem;
+    text-decoration: none;
+    vertical-align: bottom;
+}
 
+.main-navigation .main-menu > li > a {
+    font-weight: 10000;
+    color: #FFC107;
+    margin-right: 0.5rem;
+}
+
+.widget a {
+    color: #ff990191;
+}
 
