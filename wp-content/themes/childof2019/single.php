@@ -30,7 +30,8 @@ get_header();
 							'prev_text' => sprintf( __( '<span class="meta-nav">Published in</span><span class="post-title">%s</span>', 'twentynineteen' ), '%title' ),
 						)
 					);
-				} /*elseif ( is_singular( 'post' ) ) {
+				}/*
+				elseif ( is_singular( 'post' ) ) {
 					// Previous/next post navigation.
 					the_post_navigation(
 						array(
@@ -47,7 +48,7 @@ get_header();
 				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) {
 					comments_template();
-				} */
+				}*/
 
 			endwhile; // End of the loop.
 			?>

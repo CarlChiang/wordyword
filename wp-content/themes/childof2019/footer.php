@@ -26,8 +26,8 @@
 				<?php
 				/* translators: %s: WordPress. */
 				printf( __( 'Proudly powered by %s.', 'twentynineteen' ), 'WordPress' );
-				?>-->
-			</a>
+				?>
+			</a>-->
 			<?php
 			if ( function_exists( 'the_privacy_policy_link' ) ) {
 				the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
