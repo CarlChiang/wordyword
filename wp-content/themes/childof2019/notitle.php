@@ -1,16 +1,11 @@
 <?php
-/**
- * The template for displaying all single posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package WordPress
- * @subpackage Twenty_Nineteen
- * @since 1.0.0
+/*
+ * Template Name: notitle
  */
+  
+ get_header();  ?>
 
-get_header();
-?>
+
 
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
@@ -22,11 +17,11 @@ get_header();
 				the_post();
 
 				get_template_part( 'template-parts/content/content', 'page' );
-
+/*
 				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) {
 					comments_template();
-				}
+				}*/
 
 			endwhile; // End of the loop.
 			?>
